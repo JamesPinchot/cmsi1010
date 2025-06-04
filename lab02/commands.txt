@@ -1,0 +1,25 @@
+cd lab02/world
+mv africa/italy europe
+mv europe/egypt africa
+mv oceania/zambia africa
+mv asia/spain/spanish-steps.jpg europe/italy
+cd europe/india
+mv bahia-palace.jpg ../../oceania/morocco
+mv ../../asia/iceland/matsya-narayana.jpg .
+pwd
+cd ..
+mv india ../asia
+mv ../asia/spain .
+mv palau ../oceania
+mv ../oceania/morocco ../africa
+cd ..
+cd ..
+cd world
+find .
+mkdir north-america
+mkdir north-america/méxico
+mkdir north-america/barbados
+mkdir oceania/kiribati
+rm places.zip
+touch README.md
+touch lab01/simple_triangles.py
